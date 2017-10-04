@@ -17,12 +17,18 @@
 		}
 		h1{
 			text-align: center;
+			margin: 22px 0 23px 0;
 		}
 		h2{
-
+    font-size: 24px;
+		line-height: 33px;
+		}
+		h3{
+			line-height: 32px;
+    font-size: 18.5px;
 		}
 		p{
-			padding-bottom: 8px;
+			padding: 5px 0 8px 0;
 	    margin-top: 24px;
 		}
 		a{
@@ -44,20 +50,20 @@
 		header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
-			display: inline-flex;
 			margin-top: 0px;
-			margin-bottom: 19px;
+			margin: 0 0 15px 0;
 	    width: 998px;
 			padding: 0 0 0 2px;
+			display: flex;
 		}
 
 		#content {
 			display: flex;
-
 		}
 
 		nav li {
-			padding: 10px;
+			line-height: 24px;
+			padding: 9px 10px 8px 10px;
 			font-weight: bolder;
 		}
 
@@ -67,7 +73,8 @@
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
-			flex:2;
+			width: 690px;
+	    margin-left: 1px;
 			padding-top: 9px;
 		}
 
@@ -82,11 +89,18 @@
 		body article {
 			background-color: rgba(200,200,200,0.6);
 			margin: 0 8px 0 8px;
+			height: 80px;
+		}
+		body article p{
+			    padding: 0px 0 8px 0;
 		}
 		aside article{
-			height: 77px;
+			height: 79px;
+			margin: 0 8px 0 9px;
 		}
-
+		aside article p{
+			line-height: 17px;
+		}
 		header {
 		}
 
