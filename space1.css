@@ -7,29 +7,41 @@ body {
 .frame{
 	background-color: rgba(0,128,0,0.4);
 	
-	/* put css-rules in this ccs-block here below */
-	
+	margin-left: 90px;
+	padding-left: 10px;
+	padding-top: 20px;
+	width: 610px;
+	height: 700px;
 }
 
 h1{
 	background-color: rgba(0,32,0,0.4);
 	line-height: 40px;
-	
-	/* put css-rules in this ccs-block here below */
+	top: 20px;
+	left: 20px;
+	padding: 20px;
+	width: 560px;
+	margin-bottom: 30px;
 	
 }
 
 h2 {
-	line-height: 30px;
-	
-	/* put css-rules in this ccs-block here below */
+	line-height: 40px;
+	border: 5px solid purple; width: 570px; height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
 	
 }
 
 p{
 	background-color: rgba(256,256,0,0.4);
 	line-height: 20px;
-	
-	/* put css-rules in this ccs-block here below */
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 580px;
 
 }
