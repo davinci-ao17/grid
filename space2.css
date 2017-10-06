@@ -1,46 +1,78 @@
-		body {
-			background-image: url(bg.png);
-			font-family: Tahoma;
-		}
-		
-		#frame {
-			background-color: rgba(255,200,200,0.3);
-		}
-		
-		header nav ul {
-			list-style-type: none;
-			background-color: rgba(255,255,200,0.3);
-		}
-		
-		#content {
-			
-		}
-		
-		nav li {
-			
-		}
-		
-		nav li a {
-		}
-		
-		main{
-			border: 1px black solid;
-			background-color: rgba(200,200,255,0.3);
-		}
-		
-		aside{
-			border: 1px black solid;
-			background-color: rgba(200,255,200,0.3);
-		}
-		
-		body article {
-			background-color: rgba(200,200,200,0.6);
-		}
-		
-		header {
-		}
-		
-		footer {
-			background-color: rgba(255,255,200,0.3);
-		}
-	
+body {
+    background-image: url(bg.png);
+    font-family: Tahoma;
+}
+
+#frame {
+    background-color: rgba(255,200,200,0.3);
+    height: 525px;
+    width:1020px;
+    margin-left:451px;
+    margin-top: -12px;
+}
+
+header > h1 {
+    text-align: center;
+    padding-top: 31px;
+}
+
+header nav ul {
+    list-style-type: none;
+    background-color: rgba(255,255,200,0.3);
+    display: flex;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+
+#content {
+    margin-left: 10px;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    padding-left: 11px;
+    padding-right: 8px;
+    line-height: 40px;
+    margin-bottom: 1px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+    font-size: 1.2em;
+}
+
+main{
+    width: 692px;
+    border: 1px black solid;
+    background-color: rgba(200,200,255,0.3);
+    padding-top: 10px;
+}
+
+aside{
+    width: 305px;
+    border: 1px black solid;
+    background-color: rgba(200,255,200,0.3);
+    padding-top: 10px;
+}
+
+body article {
+    background-color: rgba(200,200,200,0.6);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+}
+
+footer {
+    background-color: rgba(255,255,200,0.3);
+    margin-left: 11px;
+    margin-right: 10px;
+    text-align: center;
+}
