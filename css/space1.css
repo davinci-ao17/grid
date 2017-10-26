@@ -1,0 +1,88 @@
+* {margin: 0; padding: 0;}
+body {
+	background-image: url("../img/bg.png");
+	font-family: Tahoma;
+}
+
+.frame{
+	background-color: rgba(0,128,0,0.4);
+	width: 620px;
+	height: 720px;
+	position: relative;
+	left: 490px;
+
+	/* put css-rules in this ccs-block here below */
+
+}
+
+h1{
+	background-color: rgba(0,32,0,0.4);
+	line-height: 40px;
+	width: 560px;
+	height: 50px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	padding: 20px 20px;
+
+	/* put css-rules in this ccs-block here below */
+
+}
+
+h2 {
+	line-height: 30px;
+	width: 570px;
+	height: 30px;
+	border: solid 5px purple;
+	position: relative;
+	top: 60px;
+	left: 10px;
+	padding: 5px 10px;
+
+	/* put css-rules in this ccs-block here below */
+
+}
+
+p{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	width: 580px;
+	padding: 10px;
+
+
+	/* put css-rules in this ccs-block here below */
+
+}
+#par1 {
+	height: 40px;
+	position: relative;
+	top: 30px;
+	left: 10px;
+}
+#par2 {
+	height: 60px;
+	position: relative;
+	top: 40px;
+	left: 10px;
+}
+#par3 {
+	height: 120px;
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+#par4 {
+	height: 60px;
+	position: relative;
+	top: 70px;
+	left: 10px;
+}
+#par5 {
+height: 100px;
+position: relative;
+top: 80px;
+left: 10px;
+}
+h1,h2,p {
+	font-family: sans-serif;
+}
